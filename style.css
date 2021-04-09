@@ -1,0 +1,22 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background: black;
+    color: lime;
+    background-image: url("https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif");
+    /*background-repeat: no-repeat,*/
+}
+main{
+    
+    width: 50%;
+    height: 800px;
+    margin: 50px auto;
+    background-color: black;
+}
+.ans{
+    color: #ccc
+}
+img{
+    margin: 0 auto;
+    text-align: center;
+
+}
