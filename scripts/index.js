@@ -10,7 +10,13 @@ var loopTimer;
 var local = "morpheus1";
 var fase = 0;
 var personagem;
-
+/*
+function piscarElemento(idElemento, intervalo){
+    let elem = document.getElementById(idElemento);
+    setInterval(()=>{ elem.hidden = !elem.hidden }, intervalo);
+}
+piscarElemento("piscar", 70);
+*/
 //var nome = prompt("Qual o seu nome?");
 //document.write("<h1>Acorde " + nome+"<\h1>")
 function letraPorLetra() {

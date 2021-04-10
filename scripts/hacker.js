@@ -5,8 +5,7 @@ function hacker1 (){
     myText = `Você está fazendo as perguntas certas. Já percebeu como várias coisas no mundo não fazem sentido? Como o Exaltasamba toca Pagode e o Zeca Pagodinho toca Samba?`;
     myArray = myText.split("");
     local = "morpheus2";
-    letraPorLetra();
-    return 0;
+    return letraPorLetra();
 }
 function hacker2 (){
     var ans = prompt("1 SIM | 2 NAO");
@@ -15,11 +14,10 @@ function hacker2 (){
         myText = `E se eu te falasse que tudo o que você vê, acredita e vive não é real?`;
         myArray = myText.split("");
         local = "morpheus3";
-        letraPorLetra();
-        return 0;
+        return letraPorLetra();
     }
     else{
-        return 0;
+        return reset();
     }
 }
 
@@ -30,10 +28,9 @@ function hacker3 (){
         myText = `Texto final de impacto`;
         myArray = myText.split("");
         local = "morpheus4";
-        letraPorLetra();
-        return 0;
+        return letraPorLetra();
     }
     else{
-        return 0;
+        return reset();
     }
 }
